@@ -1,0 +1,88 @@
+# =============================================
+# Python
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# PyInstaller
+*.spec
+
+# =============================================
+# Jupyter Notebooks
+# =============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# =============================================
+# Data (large raw/processed files)
+# =============================================
+# Uncomment to ignore large data files if you don't want them in the repo
+# data/raw/*.csv
+# data/processed/*.csv
+
+# =============================================
+# Model Artifacts (optional – comment out if you want to push models)
+# =============================================
+# models/*.pkl
+# models/*.joblib
+
+# =============================================
+# IDE / Editor
+# =============================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =============================================
+# OS
+# =============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================
+# Streamlit
+# =============================================
+.streamlit/secrets.toml
+
+# =============================================
+# Logs & Temp Files
+# =============================================
+*.log
+*.tmp
+*.bak
+*.swp
+logs/
+
+# =============================================
+# Testing & Coverage
+# =============================================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# =============================================
+# Screenshots (auto-generated)
+# =============================================
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.webp

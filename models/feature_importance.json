@@ -1,0 +1,95 @@
+{
+    "model_used": "Logistic Regression (Class Weighted)",
+    "top_features": [
+        {
+            "feature": "InternetService_Fiber optic",
+            "importance": 1.483,
+            "percentage": 12.52,
+            "business_explanation": "Fiber optic subscribers face steep monthly fees and frequent service quality expectations; any downtime triggers rapid switching."
+        },
+        {
+            "feature": "Contract_Two year",
+            "importance": 1.0501,
+            "percentage": 8.86,
+            "business_explanation": "The feature 'Contract_Two year' has a direct proportional influence on subscription longevity and churn probability."
+        },
+        {
+            "feature": "AverageMonthlySpend",
+            "importance": 0.9076,
+            "percentage": 7.66,
+            "business_explanation": "High burn rate relative to tenure signals bill volatility or recent rate hikes that accelerate departure."
+        },
+        {
+            "feature": "tenure",
+            "importance": 0.8381,
+            "percentage": 7.07,
+            "business_explanation": "Tenure is inversely correlated with churn. First-year customers have the highest attrition risk before becoming habituated."
+        },
+        {
+            "feature": "Contract_Risk_Flag",
+            "importance": 0.6501,
+            "percentage": 5.49,
+            "business_explanation": "The feature 'Contract_Risk_Flag' has a direct proportional influence on subscription longevity and churn probability."
+        },
+        {
+            "feature": "OnlineSecurity_Yes",
+            "importance": 0.5173,
+            "percentage": 4.37,
+            "business_explanation": "The feature 'OnlineSecurity_Yes' has a direct proportional influence on subscription longevity and churn probability."
+        },
+        {
+            "feature": "MultipleLines_Yes",
+            "importance": 0.4517,
+            "percentage": 3.81,
+            "business_explanation": "The feature 'MultipleLines_Yes' has a direct proportional influence on subscription longevity and churn probability."
+        },
+        {
+            "feature": "TechSupport_Yes",
+            "importance": 0.4418,
+            "percentage": 3.73,
+            "business_explanation": "The feature 'TechSupport_Yes' has a direct proportional influence on subscription longevity and churn probability."
+        },
+        {
+            "feature": "ServiceCount",
+            "importance": 0.3849,
+            "percentage": 3.25,
+            "business_explanation": "Low total service adoption minimizes lock-in, enabling effortless migration to competing carriers."
+        },
+        {
+            "feature": "StreamingMovies_Yes",
+            "importance": 0.3809,
+            "percentage": 3.22,
+            "business_explanation": "The feature 'StreamingMovies_Yes' has a direct proportional influence on subscription longevity and churn probability."
+        },
+        {
+            "feature": "PaymentMethod_Electronic check",
+            "importance": 0.372,
+            "percentage": 3.14,
+            "business_explanation": "Electronic check users lack the recurring automation of credit cards and bank transfers, driving higher voluntary and involuntary dropouts."
+        },
+        {
+            "feature": "StreamingTV_Yes",
+            "importance": 0.3545,
+            "percentage": 2.99,
+            "business_explanation": "The feature 'StreamingTV_Yes' has a direct proportional influence on subscription longevity and churn probability."
+        },
+        {
+            "feature": "PhoneService_Yes",
+            "importance": 0.3464,
+            "percentage": 2.92,
+            "business_explanation": "The feature 'PhoneService_Yes' has a direct proportional influence on subscription longevity and churn probability."
+        },
+        {
+            "feature": "PaperlessBilling_Yes",
+            "importance": 0.3365,
+            "percentage": 2.84,
+            "business_explanation": "Paperless billing users check invoices digitally and are more inclined to audit line items and shop competing digital offerings."
+        },
+        {
+            "feature": "TotalCharges",
+            "importance": 0.333,
+            "percentage": 2.81,
+            "business_explanation": "High cumulative billing reflects longer relationship history; lower total charges typically mark early-tenure flight risks."
+        }
+    ]
+}
